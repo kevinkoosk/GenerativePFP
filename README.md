@@ -11,28 +11,32 @@ Convert.exe is part of ImageMagick, and it's the "magic sauce" which puts togeth
 
 You need to set up 10 subdirectories. Each subdirectory is representational of all the possible iterations in a possible layer.
 
-Generate.bat
-|
-|---Layer0 (background images go here)
-|
-|---Layer1
-|
-|---Layer2
-|
-|---Layer3
-|
-|---Layer4
-|
-|---Layer5
-|
-|---Layer6
-|
-|---Layer7
-|
-|---Layer8
-|
-|---Layer9
-
+BatchFile.bat \
+| \
+|---Layer0 (background images go here) \
+| \
+|---Layer1 \
+| \
+|---Layer2 \
+| \
+|---Layer3 \
+| \
+|---Layer4 \
+| \
+|---Layer5 \
+| \
+|---Layer6 \
+| \
+|---Layer7 \
+| \
+|---Layer8 \
+| \
+|---Layer9 \
+ \
 ## About me
 
-I'm a lawyer from Kuala Lumpur, Malaysia, who is interested in NFTs.
+I'm a lawyer from Kuala Lumpur, Malaysia, who is interested in NFTs and blockchain in general.
+
+It would be a really great feeling for me if you let me know that you are using this script and give attribution.
+
+Thanks!!
