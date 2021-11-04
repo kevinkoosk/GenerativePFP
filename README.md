@@ -47,9 +47,11 @@ GeneratePFP.bat \
 
 ## Using the script
 
-Run the GeneratePFP.bat batch file.
+Run the GeneratePFP.bat batch file, with some numbers.
 
-It should generate an image in the same directory where it is called.
+e.g. GeneratePFP.bat 123
+
+It should generate an image in the same directory where it is called, with the output RandomPFP-123.png.
 
 ## About me
 
