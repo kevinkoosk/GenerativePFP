@@ -102,8 +102,8 @@ echo layer7 is %layer7%
 echo layer8 is %layer8%
 echo layer9 is %layer9%
 
-echo Creating composite image, output will be RandomBot-%1.png
+echo Creating composite image, output will be RandomPFP-%1.png
 
-c:\users\asus\downloads\imagemagick\convert.exe %layer0% %layer1% -composite %layer2% -composite %layer3% -composite %layer4% -composite %layer5% -composite %layer6% -composite %layer7% -composite %layer8% -composite %layer9% -composite -layers merge RandomBot-%1.png
+c:\users\asus\downloads\imagemagick\convert.exe %layer0% %layer1% -composite %layer2% -composite %layer3% -composite %layer4% -composite %layer5% -composite %layer6% -composite %layer7% -composite %layer8% -composite %layer9% -composite -layers merge RandomPFP-%1.png
 
-ECHO RandomBot-%1.png CREATED
+ECHO RandomPFP-%1.png CREATED
