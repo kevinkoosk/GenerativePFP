@@ -11,9 +11,21 @@ Convert.exe is part of ImageMagick, and it's the "magic sauce" which puts togeth
 
 You need to set up 10 subdirectories. Each subdirectory is representational of all the possible iterations in a possible layer.
 
-BatchFile.bat \
+For example, 
+
+Layer 0 = backgrounds, so insert images of trees or buildings 
+
+Layer 1 = face base layer 
+
+Layer 2 = eyes
+
+And so on and so forth.
+
+Make sure your files are like the following structure.
+
+GeneratePFP.bat \
 | \
-|---Layer0 (background images go here) \
+|---Layer0 \
 | \
 |---Layer1 \
 | \
@@ -31,8 +43,14 @@ BatchFile.bat \
 | \
 |---Layer8 \
 | \
-|---Layer9 \
- \
+\\---Layer9 
+
+## Using the script
+
+Run the GeneratePFP.bat batch file.
+
+It should generate an image in the same directory where it is called.
+
 ## About me
 
 I'm a lawyer from Kuala Lumpur, Malaysia, who is interested in NFTs and blockchain in general.
